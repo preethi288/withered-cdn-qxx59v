@@ -1,0 +1,46 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.game-container {
+  text-align: center;
+}
+
+.board {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-top: 20px;
+  margin-left: 80px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgb(255, 217, 0);
+  height: 352px;
+  width: 410px;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: black;
+  margin: 8px;
+  cursor: pointer;
+}
+
+.cell1 {
+  background-color: red;
+}
+
+.cell2 {
+  background-color: green;
+}
+
+.highlight {
+  background-color: rgba(0, 0, 0, 0.1);
+}
